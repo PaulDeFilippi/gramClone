@@ -12,6 +12,7 @@
 		4F38FD8F2134CCA300228D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F38FD8D2134CCA300228D10 /* Main.storyboard */; };
 		4F38FD912134CCA400228D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F38FD902134CCA400228D10 /* Assets.xcassets */; };
 		4F38FD942134CCA400228D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F38FD922134CCA400228D10 /* LaunchScreen.storyboard */; };
+		4F38FD9E21362E8C00228D10 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F38FD9D21362E8C00228D10 /* Extentions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4F38FD902134CCA400228D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F38FD932134CCA400228D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F38FD952134CCA400228D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F38FD9D21362E8C00228D10 /* Extentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		4F38FD882134CCA300228D10 /* instaFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				4F38FD9C21362E3B00228D10 /* Utils */,
 				4F38FD892134CCA300228D10 /* AppDelegate.swift */,
 				4F38FD8B2134CCA300228D10 /* ViewController.swift */,
 				4F38FD8D2134CCA300228D10 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				4F38FD952134CCA400228D10 /* Info.plist */,
 			);
 			path = instaFirebase;
+			sourceTree = "<group>";
+		};
+		4F38FD9C21362E3B00228D10 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4F38FD9D21362E8C00228D10 /* Extentions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 			files = (
 				4F38FD8C2134CCA300228D10 /* ViewController.swift in Sources */,
 				4F38FD8A2134CCA300228D10 /* AppDelegate.swift in Sources */,
+				4F38FD9E21362E8C00228D10 /* Extentions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
